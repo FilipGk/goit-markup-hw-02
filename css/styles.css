@@ -1,0 +1,217 @@
+:root {
+  --color-blue: #2196f3;
+  --navtextcolor: #212121;
+  --headercontactcolor: #757575;
+  --color-white: #ffffff;
+}
+
+body {
+  font-family: roboto, sans-serif;
+  color: var(--headercontactcolor);
+}
+
+.menu {
+  width: 1600px;
+  height: 80px;
+  background-color: #ffffff;
+}
+
+.footer {
+  width: 1600px;
+  height: 252px;
+  background-color: #2f303a;
+}
+
+.logo-color {
+  color: var(--color-blue);
+}
+
+.logo-footer {
+  color: var(--color-white);
+  text-decoration: none;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.address-color {
+  color: rgb(255, 255, 255);
+}
+
+.address-color2 {
+  color: rgba(255, 255, 255, 60%);
+}
+
+.header {
+  width: 1600px;
+  height: 80px;
+}
+
+.header ul {
+  list-style: none;
+}
+
+.logo-header {
+  color: #000000;
+  text-decoration: none;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.navigation {
+  color: var(--navtextcolor);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.navigation a {
+  text-decoration: none;
+}
+.navigation a:hover {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+.navigation a:focus {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+.header-contact {
+  color: var(--headercontactcolor);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.header-contact:hover {
+  color: var(--color-blue);
+  cursor: pointer;
+}
+
+.main-header {
+  width: 1600px;
+  height: 600px;
+  background-color: #2f303a;
+}
+
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+}
+
+.main-header button {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--color-blue);
+  border-color: var(--color-blue);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+}
+
+.info {
+  background-color: #ffffff;
+}
+
+.info-our-work h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--navtextcolor);
+}
+
+.info ul {
+  width: 1170px;
+  height: 101px;
+  list-style: none;
+}
+
+.info h4 {
+  color: var(--navtextcolor);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.info p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.info-description {
+  width: 270px;
+  height: 101px;
+}
+
+.info-our-work {
+  width: 1180px;
+  height: 386px;
+}
+
+.team {
+  background-color: #f5f4fa;
+  width: 1600px;
+  height: 648px;
+}
+
+.team h2 {
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--navtextcolor);
+}
+
+.card {
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+  list-style: none;
+}
+
+.card-name {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--navtextcolor);
+}
+
+.card-job_position {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+address ul {
+  list-style: none;
+}
+
+.filter {
+  background-color: #e5e5e5;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.portfolio ul {
+  list-style: none;
+}
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--navtextcolor);
+  border-color: #f5f4fa;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--navtextcolor);
+}
+
+.poject-type {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--headercontactcolor);
+}

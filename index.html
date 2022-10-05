@@ -4,52 +4,65 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Studio</title>
   </head>
   <body>
     <header class="header">
       <div class="menu">
-        <a href="#"><span class="logo-color">Web</span>Studio</a>
-        <nav class="navigation">
-          <ul>
-            <li><a href="#info">Agencja</a></li>
-            <li><a>Portfolio</a></li>
+        <a class="logo-header" href="#"
+          ><span class="logo-color">Web</span>Studio</a
+        >
+        <nav>
+          <ul class="navigation">
+            <li><a href="/index.html">Agencja</a></li>
+            <li><a href="/portfolio.html">Portfolio</a></li>
             <li><a>Kontakt</a></li>
           </ul>
         </nav>
         <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><p>+48 111 111 111</p></li>
+          <li>
+            <a class="header-contact" href="mailto:info@example.com"
+              >info@example.com</a
+            >
+          </li>
+          <li><p class="header-contact">+48 111 111 111</p></li>
         </ul>
       </div>
     </header>
     <main>
-      <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-      <button type="button">Zamów usługe</button>
-      <section id="info" class="info">
+      <section class="main-header">
+        <h1>EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button type="button">Zamów usługe</button>
+      </section>
+      <section class="info">
         <ul>
-          <li>
+          <li class="info-description">
             <h4>LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="info-description">
             <h4>LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="info-description">
             <h4>LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="info-description">
             <h4>LOREM IPSUM</h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -57,89 +70,95 @@
             </p>
           </li>
         </ul>
-        <h2>Czym się zajmujemy</h2>
-        <ul>
-          <li>
-            <img
-              src="../goit-markup-hw-01/images/close-up-image-programer-working-his-desk-office_1098-18707.jpg"
-              alt="close up image programer working his desk office"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="../goit-markup-hw-01/images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
-              alt="web ui designers are developing application smartphones team
+        <div class="info-our-work">
+          <h2>Czym się zajmujemy</h2>
+          <ul>
+            <li>
+              <img
+                src="/images/close-up-image-programer-working-his-desk-office_1098-18707.jpg"
+                alt="close up image programer working his desk office"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/web-ui-designers-are-developing-application-smartphones-team-creators-is-working-interface-mobile-phones_8119-2713.jpg"
+                alt="web ui designers are developing application smartphones team
         creators is working interface mobile phones"
-              width="370"
-              height="294"
-            />
-          </li>
-          <li>
-            <img
-              src="../goit-markup-hw-01/images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
-              alt="creative artist web design with working colour selection graphic
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="/images/creative-artist-web-design-with-working-colour-selection-graphic-tablet_35674-1119.jpg"
+                alt="creative artist web design with working colour selection graphic
         tablet"
-              width="370"
-              height="294"
-            />
-          </li>
-        </ul>
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <section class="team">
         <h2>Nasz zespół</h2>
         <ul>
-          <li>
+          <li class="card">
             <img
-              src="../goit-markup-hw-01/images/4853.jpg"
+              src="/images/4853.jpg"
               alt="Product Designer"
               width="270"
               height="260"
             />
-            <p class="name">John Doe</p>
-            <p class="job_position">Product Designer</p>
+            <p class="card-name">John Doe</p>
+            <p class="card-job_position">Product Designer</p>
           </li>
-          <li>
+          <li class="card">
             <img
-              src="../goit-markup-hw-01/images/5844.jpg"
+              src="/images/5844.jpg"
               alt="Frontend Developer"
               width="270"
               height="260"
             />
-            <p class="name">John Doe</p>
-            <p class="job_position">Frontend Developer</p>
+            <p class="card-name">John Doe</p>
+            <p class="card-job_position">Frontend Developer</p>
           </li>
-          <li>
+          <li class="card">
             <img
-              src="../goit-markup-hw-01/images/16166.jpg"
+              src="/images/16166.jpg"
               alt="Marketing"
               width="270"
               height="260"
             />
-            <p class="name">John Doe</p>
-            <p class="job_position">Marketing</p>
+            <p class="card-name">John Doe</p>
+            <p class="card-job_position">Marketing</p>
           </li>
-          <li>
+          <li class="card">
             <img
-              src="../goit-markup-hw-01/images/2968.jpg"
+              src="/images/2968.jpg"
               alt="UI Designer"
               width="270"
               height="260"
             />
-            <p class="name">John Doe</p>
-            <p class="job_position">UI Designer</p>
+            <p class="card-name">John Doe</p>
+            <p class="card-job_position">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="#" class="logo-color">WebStudio</a>
-      <address class="contact">
+      <a href="#" class="logo-footer"
+        ><span class="logo-color">Web</span>Studio</a
+      >
+      <address>
         <ul>
-          <li><p>m. Warszawa, Aleje Jerozolimskie 21</p></li>
-          <li><p>info@example.com</p></li>
-          <li><p>+48 111 111 111</p></li>
+          <li>
+            <p class="address-color">m. Warszawa, Aleje Jerozolimskie 21</p>
+          </li>
+          <li><p class="address-color2">info@example.com</p></li>
+          <li><p class="address-color2">+48 111 111 111</p></li>
         </ul>
       </address>
     </footer>
