@@ -15,15 +15,15 @@
   </head>
   <body>
     <header class="header">
-      <div class="menu">
-        <a class="logo-header" href="#"
-          ><span class="logo-color">Web</span>Studio</a
+      <div>
+        <a class="logo-link-header" href="#"
+          ><span class="web-color">Web</span>Studio</a
         >
         <nav>
-          <ul class="navigation">
-            <li><a href="/index.html">Agencja</a></li>
-            <li><a href="/portfolio.html">Portfolio</a></li>
-            <li><a>Kontakt</a></li>
+          <ul>
+            <li><a class="nav-element" href="/index.html">Agencja</a></li>
+            <li><a class="nav-element" href="/portfolio.html">Portfolio</a></li>
+            <li><a class="nav-element">Kontakt</a></li>
           </ul>
         </nav>
         <ul>
@@ -36,127 +36,143 @@
         </ul>
       </div>
     </header>
-    <main class="portfolio">
-      <section>
-        <div class="filter">
+    <main>
+      <section class="portfolio-main-page">
+        <div class="portfolio-selector-list">
           <ul>
-            <li class="portfolio-button">
-              <button type="button">Wszystkie</button>
+            <li>
+              <button class="portfolio-selector-button" type="button">
+                Wszystkie
+              </button>
             </li>
-            <li class="portfolio-button">
-              <button type="button">Strony</button>
+            <li>
+              <button class="portfolio-selector-button" type="button">
+                Strony
+              </button>
             </li>
-            <li class="portfolio-button">
-              <button type="button">Aplikacje</button>
+            <li>
+              <button class="portfolio-selector-button" type="button">
+                Aplikacje
+              </button>
             </li>
-            <li class="portfolio-button">
-              <button type="button">Dizajn</button>
+            <li>
+              <button class="portfolio-selector-button" type="button">
+                Dizajn
+              </button>
             </li>
-            <li class="portfolio-button">
-              <button type="button">Marketing</button>
+            <li>
+              <button class="portfolio-selector-button" type="button">
+                Marketing
+              </button>
             </li>
           </ul>
         </div>
         <ul>
-          <li>
+          <li class="project-element">
             <img
               src="/images/technocrack.jpg"
               alt="Technocrack website"
               width="370"
               height="294"
             />
-            <p class="project-title">Technocrack</p>
-            <p>Strona internetowa</p>
+            <p class="project-element-title">Technocrack</p>
+            <p class="project-element-type">Strona internetowa</p>
           </li>
-          <li>
+          <li class="project-element">
             <img
               src="/images/new_orlean_vs_golden_star.jpg"
               alt="basketball match poster"
               width="370"
               height="294"
             />
-            <p class="project-title">Grafika New Orlean vs Golden Star</p>
-            <p class="project-type">Dizajn</p>
+            <p class="project-element-title">
+              Grafika New Orlean vs Golden Star
+            </p>
+            <p class="project-element-type">Dizajn</p>
           </li>
-          <li>
+          <li class="project-element">
             <img
               src="/images/seafood.jpg"
               alt="restaurant logo"
               width="370"
               height="294"
             />
-            <p class="project-title">Restauracja Seafood</p>
-            <p class="project-type">Aplikacja</p>
+            <p class="project-element-title">Restauracja Seafood</p>
+            <p class="project-element-type">Aplikacja</p>
           </li>
-          <li>
+          <li class="project-element">
             <img
               src="/images/headphones.jpg"
               alt="headphones"
               width="370"
               height="294"
             />
-            <p class="project-title">Projekt Prime</p>
-            <p class="project-type">Marketing</p>
+            <p class="project-element-title">Projekt Prime</p>
+            <p class="project-element-type">Marketing</p>
           </li>
-          <li>
+          <li class="project-element">
             <img src="/images/boxes.jpg" alt="boxes" width="370" height="294" />
-            <p class="project-title">Projekt Boxes</p>
-            <p class="project-type">Aplikacja</p>
+            <p class="project-element-title">Projekt Boxes</p>
+            <p class="project-element-type">Aplikacja</p>
           </li>
-          <li>
+          <li class="project-element">
             <img
               src="/images/monitor.jpg"
               alt="Inspiration has no Borders website"
               width="370"
               height="294"
             />
-            <p class="project-title">Inspiration has no Borders</p>
-            <p class="project-type">Strona internetowa</p>
+            <p class="project-element-title">Inspiration has no Borders</p>
+            <p class="project-element-type">Strona internetowa</p>
           </li>
-          <li>
+          <li class="project-element">
             <img
               src="/images/magazine.jpg"
               alt="Magazine"
               width="370"
               height="294"
             />
-            <p class="project-title">Magazyn Limited Edition</p>
-            <p class="project-type">Dizajn</p>
+            <p class="project-element-title">Magazyn Limited Edition</p>
+            <p class="project-element-type">Dizajn</p>
           </li>
-          <li>
+          <li class="project-element">
             <img
               src="/images/project_lab.jpg"
               alt="Project LAB"
               width="370"
               height="294"
             />
-            <p class="project-title">Projekt LAB</p>
-            <p class="project-type">Marketing</p>
+            <p class="project-element-title">Projekt LAB</p>
+            <p class="project-element-type">Marketing</p>
           </li>
-          <li>
+          <li class="project-element">
             <img
               src="/images/growing_business.jpg"
               alt="Growing business application"
               width="370"
               height="294"
             />
-            <p class="project-title">Growing Business</p>
-            <p class="project-type">Aplikacja</p>
+            <p class="project-element-title">Growing Business</p>
+            <p class="project-element-type">Aplikacja</p>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href="#" class="logo-footer"
-        ><span class="logo-color">Web</span>Studio</a
+      <a class="logo-link-footer" href="#"
+        ><span class="web-color">Web</span>Studio</a
       >
-      <address class="contact">
+      <address>
         <ul>
           <li>
-            <p class="address-color">m. Warszawa, Aleje Jerozolimskie 21</p>
+            <p class="footer-address">m. Warszawa, Aleje Jerozolimskie 21</p>
           </li>
-          <li><p class="address-color2">info@example.com</p></li>
-          <li><p class="address-color2">+48 111 111 111</p></li>
+          <li>
+            <p class="footer-contact">info@example.com</p>
+          </li>
+          <li>
+            <p class="footer-contact">+48 111 111 111</p>
+          </li>
         </ul>
       </address>
     </footer>
